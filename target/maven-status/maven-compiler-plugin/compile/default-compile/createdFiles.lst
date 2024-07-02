@@ -1,2 +1,3 @@
+com/example/helloapi/model/GreetingResponse.class
 com/example/helloapi/HelloapiApplication.class
 com/example/helloapi/controller/HelloController.class
