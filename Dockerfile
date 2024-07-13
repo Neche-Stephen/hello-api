@@ -14,10 +14,20 @@
 #CMD ["java", "-jar", "app.jar"]
 
 
-FROM openjdk:17-oracle
+#FROM openjdk:17-oracle
+#
+#COPY target/helloapi-0.0.1-SNAPSHOT.jar app.jar
+#
+#EXPOSE 8080
+#
+#ENTRYPOINT ["java", "-jar", "app.jar"]
 
-COPY target/helloapi-0.0.1-SNAPSHOT.jar app.jar
+FROM openjdk:17-jdk
+
+WORKDIR /app
+
+COPY target/helloapi-0.0.1-SNAPSHOT.jar /app/springdemo.jar
 
 EXPOSE 8080
 
-ENTRYPOINT ["java", "-jar", "app.jar"]
+CMD ["java", "-jar", "springdemo.jar"]
