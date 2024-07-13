@@ -11,3 +11,5 @@ public class HelloapiApplication {
 	}
 
 }
+//Other Stuff
+//I and 5 others were nominated for the position of Stack Rep by our colleagues. We were called for interview and after the interview, I was appointed as the assistant Rep.

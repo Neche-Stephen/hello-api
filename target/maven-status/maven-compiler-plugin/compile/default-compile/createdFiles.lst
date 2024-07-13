@@ -1,3 +1,7 @@
 com/example/helloapi/model/GreetingResponse.class
+com/example/helloapi/repository/UserRepository.class
+com/example/helloapi/model/User$UserBuilder.class
+com/example/helloapi/controller/UserController.class
 com/example/helloapi/HelloapiApplication.class
+com/example/helloapi/model/User.class
 com/example/helloapi/controller/HelloController.class
